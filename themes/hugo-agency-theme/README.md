@@ -87,7 +87,7 @@ The image set under `img` needs to be stored at [`static/img/about`](//github.co
 
 ### Introduce your team
 
-Let the visitors or potential clients know who you are. To add a team member paste the code below into the [`config.toml`](//github.com/digitalcraftsman/hugo-agency-theme/blob/master/exampleSite/config.toml). The `img` field refers to the shown image. Paste those of you or your colleages into [`static/img/team`](//github.com/digitalcraftsman/hugo-agency-theme/tree/master/static/img/team) 
+Let the visitors or potential clients know who you are. To add a team member paste the code below into the [`config.toml`](//github.com/digitalcraftsman/hugo-agency-theme/blob/master/exampleSite/config.toml). The `img` field refers to the shown image. Paste those of you or your colleages into [`static/img/team`](//github.com/digitalcraftsman/hugo-agency-theme/tree/master/static/img/team)
 
 ```toml
 [[params.team.members]]
@@ -130,7 +130,7 @@ Since this page will be static, you can use [formspree.io](//formspree.io/) as p
 
 ### Nearly finished
 
-In order to see your site in action, run Hugo's built-in local server. 
+In order to see your site in action, run Hugo's built-in local server.
 
     $ hugo server
 
@@ -149,7 +149,7 @@ This theme is released under the Apache License 2.0 For more information read th
 
 ## Acknowledgements
 
-Thanks to 
+Thanks to
 
 - [David Miller](//github.com/davidtmiller) for creating this theme
 - [Steve Francia](//github.com/spf13) for creating Hugo and the awesome community around the project

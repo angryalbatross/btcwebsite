@@ -49,7 +49,7 @@ googleAnalytics = ""
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
     services = "Services"
-    portfolio = "Portfolio"
+    portfolio = "Customers"
     about = "About"
     team = "Team"
     contact = "Contact"
@@ -108,13 +108,13 @@ googleAnalytics = ""
 
   # Portfolio section
   [params.portfolio]
-    enable = false
+    enable = true
     # All projects defined in their own files. You can find example projects
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Portfolio"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "Previous Customers"
+    subtitle = "Below are a few of my happy customers."
 
     [params.portfolio.modal]
       client = "Client"
@@ -125,7 +125,7 @@ googleAnalytics = ""
 
     # About section
   [params.about]
-    enable = true
+    enable = false
     title = "About"
     subtitle = "Our company was formed to help the businesses of East Texas"
     endpoint = "Be part<br>of our<br>story!"
