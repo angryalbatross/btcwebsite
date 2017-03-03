@@ -1,7 +1,7 @@
 # Site settings
-baseurl = "https://angryalbatross.github.io/btc/"
+baseurl = "https://angryalbatross.github.io/"
 languageCode = "en-us"
-title = "Agency"
+title = "BT&C"
 theme = "hugo-agency-theme"
 
 # Enter your tracking code to enable Google Analytics
@@ -17,7 +17,7 @@ googleAnalytics = ""
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "Burgett Technology Consulting"
+  name = "Burgett Technology and Consulting"
   description = "A consulting company for small businesses in Tyler, Texas"
 
   # Link custom assets relative to /static
