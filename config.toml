@@ -149,7 +149,7 @@ googleAnalytics = ""
 
   # Team section
   [params.team]
-    enable = false
+    enable = true
     # Possibility to center items
     #center = true
     title = "Our amazing team"
@@ -162,13 +162,11 @@ googleAnalytics = ""
     [[params.team.members]]
       img = "1.jpg"
       name = "Dan Burgett"
-      position = "CEO"
-      reportsTo = "No One"
-      livesIn = "[Tyler, Texas](#some-maps-url)"
+      position = "CEO-Lead Dev"
+      reportsTo = ""
+      livesIn = "[Tyler, Texas](#https://www.google.com/maps/place/Tyler,+TX/@32.3305477,-95.4674805,11z/data=!4m13!1m7!3m6!1s0x8649cc051eabf9e3:0x3e285c7d7177701c!2sTyler,+TX!3b1!8m2!3d32.3512601!4d-95.3010624!3m4!1s0x8649cc051eabf9e3:0x3e285c7d7177701c!8m2!3d32.3512601!4d-95.3010624)"
       scope = [
-        "UX for [member dashboard](#)",
-        "Maintainer for [awesome-project](#)",
-        "Open Source [community management](#)"
+        "Website Developer for Pine Cove"
       ]
       # For bio markdown and even multiline strings are available.
       bio = """Dan is an awesome Consultant."""
