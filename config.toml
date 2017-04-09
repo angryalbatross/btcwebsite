@@ -51,7 +51,7 @@ googleAnalytics = ""
     services = "Services"
     portfolio = "Customers"
     about = "About"
-    team = "Team"
+    team = "About"
     contact = "Contact"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
@@ -151,10 +151,10 @@ googleAnalytics = ""
   [params.team]
     enable = true
     # Possibility to center items
-    #center = true
-    title = "Our amazing team"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+    center = true
+    title = "Who I am"
+    subtitle = "Masters in Business Administration, B.S. in Visualization"
+    description = ""
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
@@ -162,14 +162,14 @@ googleAnalytics = ""
     [[params.team.members]]
       img = "1.jpg"
       name = "Dan Burgett"
-      position = "CEO-Lead Dev"
+      position = ""
       reportsTo = ""
       livesIn = "[Tyler, Texas](#https://www.google.com/maps/place/Tyler,+TX/@32.3305477,-95.4674805,11z/data=!4m13!1m7!3m6!1s0x8649cc051eabf9e3:0x3e285c7d7177701c!2sTyler,+TX!3b1!8m2!3d32.3512601!4d-95.3010624!3m4!1s0x8649cc051eabf9e3:0x3e285c7d7177701c!8m2!3d32.3512601!4d-95.3010624)"
       scope = [
-        "Website Developer for Pine Cove"
+        ""
       ]
       # For bio markdown and even multiline strings are available.
-      bio = """Dan is an awesome Consultant."""
+      bio = """I am Dan Burgett - Business Consultant extraordinaire!  I have an MBA from Longwood University and a B.S. in Visualization from Texas A&M.  I first started out my career working in Washington D.C. as a defense contractor on military video games, websites and smartphone apps.  Eventually I got really tired of that.  I spent two years studying  graduate level business and moved out to Tyler to work for Pine Cove as a website developer.  I love living in East Texas and want to help the businesses here succeed!"""
       social = [
       ]
 
@@ -216,7 +216,7 @@ googleAnalytics = ""
   [params.contact]
     enable = true
     title = "Contact us"
-    subtitle  = "We would love to hear from you."
+    subtitle  = "I would love to hear from you."
     buttonText = "Send message"
 
     # Since this template is static, the contact form uses www.formspree.io as a
@@ -269,9 +269,11 @@ googleAnalytics = ""
       # Special values for name such as "page" and "site" will be autofilled
       #  name = "page"
 
+
+
   # Footer section
   [params.footer]
-    enable = true
+    enable = false
     copyright = ""
 
     [[params.footer.social]]

@@ -33,7 +33,10 @@
               {{ end }}
             </ul>
             {{ end }}
-
+          </div>
+        </div>
+        <div class="col-sm-4 col">
+          <div class="team-member">
             <ul class="list-inline social-buttons">
               {{ range .social }}
                 <li><a href="{{ index . 1 }}"><i class="fa {{ index . 0 }}"></i></a></li>
@@ -43,7 +46,6 @@
             {{ with .bio }}
             <p class="team-bio">{{ . | markdownify }}</p>
             {{ end }}
-
           </div>
         </div>
       {{ end }}

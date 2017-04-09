@@ -319,6 +319,10 @@ header .intro-text .intro-heading {
     line-height: 50px;
 }
 
+spacer {
+  margin: 5em;
+}
+
 @media(min-width:768px) {
     header .intro-text {
         vertical-align: text-top;

@@ -29,6 +29,12 @@
           <a href="{{ if .IsHome }}/#page-top{{ else }}{{ .Site.BaseURL }}{{ end }}"></a>
         </li>
 
+        {{ if .Site.Params.team.enable }}
+        <li>
+          <a class="page-scroll" href="{{ .Site.BaseURL }}#team">{{ with .Site.Params.navigation.team }}{{ . }}{{ end }}</a>
+        </li>
+        {{ end }}
+
         {{ range .Site.Menus.prepend }}
           <li>
             <a href="{{ .URL }}">{{ .Name | markdownify }}</a>
@@ -50,12 +56,6 @@
         {{ if .Site.Params.about.enable }}
           <li>
             <a class="page-scroll" href="{{ .Site.BaseURL }}#about">{{ with .Site.Params.navigation.about }}{{ . }}{{ end }}</a>
-          </li>
-        {{ end }}
-
-        {{ if .Site.Params.team.enable }}
-          <li>
-            <a class="page-scroll" href="{{ .Site.BaseURL }}#team">{{ with .Site.Params.navigation.team }}{{ . }}{{ end }}</a>
           </li>
         {{ end }}
 
