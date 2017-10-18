@@ -91,19 +91,19 @@ googleAnalytics = ""
     [[params.services.row.list]]
       icon = "fa-handshake-o"
       title = "Strategic Analysis"
-      description = "Let me analyze your business and the industry its in. Sometimes you need someone from the outside to give you a new persepective on your company. I can point out your competitors strategies to you, and can help you understand how to help your business thrive. Together we can go over the political, economic, social, etchnological, environmental and legal aspects of your company. Also we can look at the five forces that affect every business to see how you can better position yourself in the market. I can work with any company in any industry."
+      description = "Let me analyze your business and the industry it is in. Sometimes you need someone from the outside to give you a new persepective on your company. I can point out your competitors strategies, and can help you understand how to help your business thrive. Together we can go over the political, economic, social, technological, environmental and legal aspects of your company. Also we can look at the five forces that affect every business to see how you can better position yourself in the market. I can work with any company in any industry."
       url = ""
 
     [[params.services.row.list]]
       icon = "fa-laptop"
       title = "Web/Social Media Presence"
-      description = "I can work with you to enchance your presence on the web. Lets use technology to improve your customer base!  Together we can craft your social media strategy, and increase your search engine optimization. Communication with customers is key, and in the digital age its all done on the web!"
+      description = "I can work with you to enchance your presence on the web. Lets use technology to improve your customer base!  Together we can craft your social media strategy, and optomize your search engine visibility. Communication with customers is key, and in the digital age its all done on the web!"
       url = ""
 
     [[params.services.row.list]]
       icon = "fa-line-chart"
-      title = "Website Creation"
-      description = "Let me create an awesome website for your business. If you just need a small static info page or a big custom built site, I can design or build it for you. Every business needs a website these days, and Burgett Technology Consulting can give you one on time and on budget!"
+      title = "Website/App Creation"
+      description = "Let me create an awesome website or smartphone app for your business. If you just need a small static info page or a big custom built site, I can design or build it for you. Want an in house app to manage your day to day unique needs or a customer focused app so consumers can connect with you? Every business needs a digital presence these days, and Burgett Technology Consulting can give you one on time and on budget!"
       url = ""
 
   # Portfolio section
@@ -169,12 +169,13 @@ googleAnalytics = ""
         ""
       ]
       # For bio markdown and even multiline strings are available.
-      bio = """I am Dan Burgett - Business Consultant extraordinaire!
+      bio = """I am Dan Burgett - your future Business Consultant.
       I have an MBA from Longwood University and a B.S. in Visualization from Texas A&M.
       I first started out my career working in Washington D.C. as a defense contractor on military video games, websites and smartphone apps.
       Eventually I got really tired of that.
       I spent two years studying graduate level business administration and moved out to Tyler to work for Pine Cove as a website developer.
       I love living in East Texas and want to help the businesses here succeed!"""
+
       social = [
       ]
 
@@ -220,7 +221,7 @@ googleAnalytics = ""
   # Contact section
   [params.contact]
     enable = true
-    title = "Contact us"
+    title = "Contact Me"
     subtitle  = "I would love to hear from you."
     buttonText = "Send message"
 
