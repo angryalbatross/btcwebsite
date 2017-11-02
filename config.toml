@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://angryalbatross.github.io/"
+baseurl = "https://burgettconsulting.com/"
 languageCode = "en-us"
 title = "BTC"
 theme = "hugo-agency-theme"
