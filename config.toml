@@ -153,7 +153,7 @@ googleAnalytics = ""
     # Possibility to center items
     center = true
     title = "Who I am"
-    subtitle = "Masters in Business Administration, B.S. in Visualization"
+    subtitle = "Dan Burgett - Business Consultant and Freelance Software Developer"
     description = ""
 
     # All team member's pictures are stored under 'static/img/team'.
@@ -169,11 +169,9 @@ googleAnalytics = ""
         ""
       ]
       # For bio markdown and even multiline strings are available.
-      bio = """I am Dan Burgett - your future Business Consultant.
-      I have an MBA from Longwood University and a B.S. in Visualization from Texas A&M.
-      I first started out my career working in Washington D.C. as a defense contractor on military video games, websites and smartphone apps.
-      Eventually I got really tired of that.
-      I spent two years studying graduate level business administration and moved out to Tyler to work for Pine Cove as a website developer.
+      bio = """I first started out my career working in Washington D.C. as a defense contractor on military video games, websites and smartphone apps.
+      Eventually I got really tired of that government work and moved to Tyler.    
+      I have an MBA from Longwood university and a BS in Computer Graphics from Texas A&M.
       I love living in East Texas and want to help the businesses here succeed!"""
 
       social = [
