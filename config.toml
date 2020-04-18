@@ -17,8 +17,8 @@ googleAnalytics = ""
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "Burgett Technology and Consulting"
-  description = "A consulting company for small businesses in Tyler, Texas"
+  name = "Burgett Consulting"
+  description = "Custom websites, apps, software and Salesforce consulting!"
 
   # Link custom assets relative to /static
   custom_css = []
@@ -90,8 +90,8 @@ googleAnalytics = ""
 
     [[params.services.row.list]]
       icon = "fa-handshake-o"
-      title = "Strategic Analysis"
-      description = "Let me analyze your business and the industry it is in. Sometimes you need someone from the outside to give you a new persepective on your company. I can point out your competitors strategies, and can help you understand how to help your business thrive. Together we can go over the political, economic, social, technological, environmental and legal aspects of your company. Also we can look at the five forces that affect every business to see how you can better position yourself in the market. I can work with any company in any industry."
+      title = "Salesforce Consulting"
+      description = "Let me help your business use Salesforce better! Whether its troubleshooting permissions sets, custom fields and plugins or you need someone to help you outsource and manage your lightning conversion, I'm your man!  I have worked on major overhauls of donations systems, invoicing systems and live chat integrations all in Salesforce.  I also provide general Salesforce administration services."
       url = ""
 
     [[params.services.row.list]]
@@ -102,8 +102,8 @@ googleAnalytics = ""
 
     [[params.services.row.list]]
       icon = "fa-line-chart"
-      title = "Website/App Creation"
-      description = "Let me create an awesome website or smartphone app for your business. If you just need a small static info page or a big custom built site, I can design or build it for you. Want an in house app to manage your day to day unique needs or a customer focused app so consumers can connect with you? Every business needs a digital presence these days, and Burgett Technology Consulting can give you one on time and on budget!"
+      title = "Custom Website or Desktop/App"
+      description = "Let me create an awesome website, desktop or smartphone app for your business. If you just need a small static info page or a big custom built site, I can design or build it for you. Want an in house app to manage your day to day unique needs or a customer focused app so consumers can connect with you? Every business needs a digital presence these days, and Burgett Technology Consulting can give you one on time and on budget!"
       url = ""
 
   # Portfolio section
@@ -153,7 +153,7 @@ googleAnalytics = ""
     # Possibility to center items
     center = true
     title = "Who I am"
-    subtitle = "Dan Burgett - Business Consultant and Freelance Software Developer"
+    subtitle = "Dan Burgett - Freelance Software Developer"
     description = ""
 
     # All team member's pictures are stored under 'static/img/team'.
